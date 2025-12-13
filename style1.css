@@ -1,14 +1,13 @@
-
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: white;
-    color: wheat;
+    background: #f4f6f8;        
+    color: #333;              
 }
 
 h1, h2 {
-    color: burlywood;
+    color: #1e3a8a;            
 }
 
 header {
@@ -16,47 +15,46 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: black;
+    background: #0f172a;       
     color: white;
 }
 
 header nav a {
     margin: 0 15px;
-    color: white;
+    color: #e5e7eb;
     text-decoration: none;
     font-weight: bold;
 }
 
 header nav a:hover {
-    color: black;
+    color: #38bdf8;            
 }
+
 #hero {
     text-align: center;
     padding: 100px 20px;
-    background: lightblue;
-    color: black;
-}
-
-#hero span {
-    color: black;
+    background: linear-gradient(135deg, #38bdf8, #1e40af);
+    color: white;
 }
 
 .btn {
     padding: 12px 25px;
     background: white;
-    color: lightblue;
+    color: #1e40af;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
 }
 
 .btn:hover {
-    background: black;
+    background: #0f172a;
+    color: white;
 }
 
 #about, #skills, #projects, #contact {
     padding: 50px 20px;
 }
+
 
 .skill-list {
     list-style: none;
@@ -67,7 +65,8 @@ header nav a:hover {
 
 .skill-list li {
     padding: 10px 20px;
-    background: black;
+    background: #1e40af;
+    color: white;
     border-radius: 5px;
 }
 
@@ -78,12 +77,15 @@ header nav a:hover {
 }
 
 .project-card {
-    background: black;
+    background: white;
     padding: 20px;
     width: 30%;
     min-width: 250px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    color: #333;
 }
 
-
+#contact p {
+    font-size: 16px;
+}
